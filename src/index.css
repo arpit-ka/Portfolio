@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #22262a;
+  --color-surface: #1b1e22;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-heading {
+  @apply text-center text-3xl mt-24 font-semibold underline underline-offset-4 decoration-red-500 decoration-2;
+}

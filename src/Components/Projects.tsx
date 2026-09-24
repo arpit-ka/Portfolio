@@ -1,0 +1,38 @@
+import type { ProjectsProps } from "../Utils/Types";
+
+import projectsData from "../Data/projects.json";
+
+import ProjectsHelper from "./Projects Helper/ProjectsHelper";
+import Separator from "./utils/Separator";
+
+function Projects() {
+  const items: ProjectsProps[] = projectsData;
+  return (
+    <section id="projects" className="bg-background px-14 pb-24">
+      <Separator />
+      <div className=" text-white">
+        <h1 className="section-heading">Projects</h1>
+        <div className="flex flex-wrap gap-10 justify-between mt-20 mb-20">
+          {items.map((item) => {
+            return (
+              <ProjectsHelper
+                image={item.image}
+                title={item.title}
+                link={item.link}
+                description={item.description}
+              />
+            );
+          })}
+        </div>
+        <a
+          href="https://github.com/arpit-ka?tab=repositories"
+          className="bg-red-500 block w-fit mx-auto py-2 px-4 rounded-md text-center"
+        >
+          View on GitHub
+        </a>
+      </div>
+    </section>
+  );
+}
+
+export default Projects;

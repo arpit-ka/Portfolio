@@ -1,0 +1,272 @@
+[
+  {
+    "title": "Frontend Development",
+    "description": "I build responsive and interactive user interfaces with a focus on clean design, performance, and usability. I work with modern frontend technologies and frameworks to create component-based interfaces, manage application state, integrate APIs, and deliver smooth experiences across different devices and screen sizes.",
+    "images": [
+      {
+        "src": "/images/frontend/html.png",
+        "height": 50,
+        "width": 100,
+        "alt": "HTML"
+      },
+      {
+        "src": "/images/frontend/css.png",
+        "height": 50,
+        "width": 100,
+        "alt": "CSS"
+      },
+      {
+        "src": "/images/frontend/tailwind.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Tailwind"
+      },
+      {
+        "src": "/images/frontend/bootstrap.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Bootstrap"
+      },
+      {
+        "src": "/images/frontend/react.png",
+        "height": 50,
+        "width": 100,
+        "alt": "React"
+      }
+    ]
+  },
+  {
+    "title": "Backend Development",
+    "description": "I develop reliable backend systems that handle application logic, data processing, authentication, and communication between services. I work with server-side technologies to design REST APIs, structure applications efficiently, integrate external services, and build backend architectures that are maintainable and scalable.",
+    "images": [
+      {
+        "src": "/images/backend/node.png",
+        "height": 50,
+        "width": 125,
+        "alt": "Node"
+      },
+      {
+        "src": "/images/backend/express.png",
+        "height": 50,
+        "width": 175,
+        "alt": "Express"
+      },
+      {
+        "src": "/images/backend/emailjs.png",
+        "height": 50,
+        "width": 175,
+        "alt": "Emailjs"
+      }
+    ]
+  },
+  {
+    "title": "Database & Data Management",
+    "description": "I work with both relational and NoSQL databases to design, store, query, and manage application data efficiently. This includes designing database schemas, defining relationships, writing optimized queries, integrating databases with backend services, and maintaining reliable data flow throughout an application.",
+    "images": [
+      {
+        "src": "/images/database/mongodb.png",
+        "height": 50,
+        "width": 100,
+        "alt": "MongoDB"
+      },
+      {
+        "src": "/images/database/mysql.png",
+        "height": 50,
+        "width": 175,
+        "alt": "MySQL"
+      },
+      {
+        "src": "/images/database/postgre.png",
+        "height": 50,
+        "width": 100,
+        "alt": "PostgreSQL"
+      },
+      {
+        "src": "/images/database/cloudinary.png",
+        "height": 50,
+        "width": 175,
+        "alt": "Cloudinary"
+      },
+      {
+        "src": "/images/database/prisma.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Prisma"
+      }
+    ]
+  },
+  {
+    "title": "Mobile App Development",
+    "description": "I develop cross-platform mobile applications using React Native, creating responsive and reusable interfaces for both Android and iOS. I work with navigation, state management, API integration, local storage, and backend services while focusing on application performance, maintainable code, and a consistent user experience across platforms.",
+    "images": [
+      {
+        "src": "/images/frontend/react.png",
+        "height": 50,
+        "width": 100,
+        "alt": "React Native"
+      },
+      {
+        "src": "/images/app dev/expo.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Expo"
+      },
+      {
+        "src": "/images/app dev/nativewind.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Nativewind"
+      }
+    ]
+  },
+  {
+    "title": "Machine Learning & Deep Learning",
+    "description": "I work across the machine learning workflow, from preparing and exploring datasets to designing, training, evaluating, and improving models. I have experience working with machine learning and deep learning frameworks, experimenting with different architectures and techniques, and analyzing model performance for practical problems.",
+    "images": [
+      {
+        "src": "/images/ml/scikit-learn.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Scikit Learn"
+      },
+      {
+        "src": "/images/ml/pytorch.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Pytorch"
+      },
+      {
+        "src": "/images/ml/fast-api.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Fast API"
+      },
+      {
+        "src": "/images/ml/flask.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Flask"
+      },
+      {
+        "src": "/images/ml/streamlit.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Streamlit"
+      }
+    ]
+  },
+  {
+    "title": "Programming Languages",
+    "description": "I work with multiple programming languages across web development, mobile development, and machine learning. Rather than being limited to a single technology stack, I use different languages depending on the requirements of the project, whether for application development, backend systems, data processing, or model development.",
+    "images": [
+      {
+        "src": "/images/languages/python.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Python"
+      },
+      {
+        "src": "/images/languages/java.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Java"
+      },
+      {
+        "src": "/images/languages/C.png",
+        "height": 50,
+        "width": 100,
+        "alt": "C"
+      },
+      {
+        "src": "/images/languages/C++.png",
+        "height": 50,
+        "width": 100,
+        "alt": "C++"
+      }
+    ]
+  },
+  {
+    "title": "Development Tools & Technologies",
+    "description": "I use a range of development tools for version control, API testing, debugging, environment management, and collaborative development. These tools form an important part of my workflow and help me develop, test, manage, and maintain projects efficiently throughout the development lifecycle.",
+    "images": [
+      {
+        "src": "/images/dev tools/git.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Git"
+      },
+      {
+        "src": "/images/dev tools/github.png",
+        "height": 50,
+        "width": 100,
+        "alt": "GitHub"
+      },
+      {
+        "src": "/images/dev tools/vs-code.png",
+        "height": 50,
+        "width": 100,
+        "alt": "VS Code"
+      },
+      {
+        "src": "/images/dev tools/jupyter-lab.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Jupyter Lab"
+      },
+      {
+        "src": "/images/dev tools/web-storm.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Web Storm"
+      },
+      {
+        "src": "/images/dev tools/docker.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Docker"
+      },
+      {
+        "src": "/images/dev tools/anaconda.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Anaconda"
+      },
+      {
+        "src": "/images/dev tools/aws.png",
+        "height": 50,
+        "width": 100,
+        "alt": "AWS"
+      },
+      {
+        "src": "/images/dev tools/gcp.png",
+        "height": 50,
+        "width": 100,
+        "alt": "GCP"
+      },
+      {
+        "src": "/images/dev tools/postman.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Postman"
+      },
+      {
+        "src": "/images/dev tools/render.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Render"
+      },
+      {
+        "src": "/images/dev tools/netlify.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Netlify"
+      },
+      {
+        "src": "/images/dev tools/vercel.png",
+        "height": 50,
+        "width": 100,
+        "alt": "Vercel"
+      }
+    ]
+  }
+]

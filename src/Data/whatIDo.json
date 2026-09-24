@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "web",
+    "title": "Web Development",
+    "description": "I build responsive, scalable, and performance-focused web applications, working across both front-end and back-end development. From creating intuitive user interfaces and managing application logic to designing APIs, databases, and server-side architecture, I focus on building reliable and maintainable web solutions."
+  },
+  {
+    "icon": "mobile",
+    "title": "Mobile App Development",
+    "description": "I build cross-platform mobile applications using React Native, with a focus on responsive interfaces, smooth performance, and consistent experiences across Android and iOS. I work with navigation, state management, API integration, local storage, and device capabilities to develop functional and maintainable mobile applications."
+  },
+  {
+    "icon": "ai",
+    "title": "AI/ML",
+    "description": "I work with machine learning and deep learning models across the complete development pipeline, including data preprocessing, model architecture, training, evaluation, and optimization. I enjoy experimenting with different approaches, analyzing model performance, and building solutions around real-world datasets and problems."
+  }
+]
