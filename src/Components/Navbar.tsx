@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="flex justify-between items-center px-12 py-4 bg-background text-white sticky top-0">
+    <div className="flex justify-between items-center px-12 py-4 bg-background text-white sticky top-0 z-2">
       <h2 className="font-semibold text-xl">
         <a href="#hero">Arpit Kaushik</a>
       </h2>

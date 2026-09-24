@@ -18,7 +18,8 @@ function Projects() {
               <ProjectsHelper
                 image={item.image}
                 title={item.title}
-                link={item.link}
+                githubLink={item.githubLink}
+                webLink={item.webLink}
                 description={item.description}
               />
             );
@@ -28,7 +29,7 @@ function Projects() {
           href="https://github.com/arpit-ka?tab=repositories"
           className="bg-red-500 block w-fit mx-auto py-2 px-4 rounded-md text-center"
         >
-          View on GitHub
+          Other Projects
         </a>
       </div>
     </section>

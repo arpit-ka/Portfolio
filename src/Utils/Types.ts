@@ -13,7 +13,8 @@ export interface SkillsProps {
 
 export interface ProjectsProps {
   image: string;
-  link: string;
+  githubLink: string;
+  webLink?: string;
   title: string;
   description: string;
 }
