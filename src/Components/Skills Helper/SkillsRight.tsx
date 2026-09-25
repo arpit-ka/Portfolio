@@ -4,8 +4,9 @@ function SkillsRight({ title, description, images }: SkillsProps) {
   return (
     <div className="flex justify-between items-center gap-22 mt-30 mb-10">
       <div className="icons flex flex-wrap gap-x-4 items-center justify-center">
-        {images.map((image) => (
+        {images.map((image, idx) => (
           <img
+            key={idx}
             src={image.src}
             height={image.height}
             width={image.width}

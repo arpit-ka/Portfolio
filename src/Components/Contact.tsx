@@ -1,5 +1,6 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "sonner";
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const CONTACT_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_CONTACT_TEMPLATE_ID;
@@ -15,6 +16,9 @@ function Contact() {
   const handleSubmit = async (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    const submitBtn = document.getElementById("submit-btn");
+    submitBtn?.setAttribute("disabled", "true");
+
     const templateParams = {
       name,
       email,
@@ -22,14 +26,41 @@ function Contact() {
     };
 
     try {
-      await emailjs.send(SERVICE_ID, CONTACT_TEMPLATE_ID, templateParams, {
-        publicKey: PUBLIC_KEY,
-      });
-      await emailjs.send(SERVICE_ID, AUTOREPLY_TEMPLATE_ID, templateParams, {
-        publicKey: PUBLIC_KEY,
+      const sendMessage = emailjs.send(
+        SERVICE_ID,
+        CONTACT_TEMPLATE_ID,
+        templateParams,
+        {
+          publicKey: PUBLIC_KEY,
+        },
+      );
+      toast.promise(sendMessage, {
+        loading: "Sending your message......",
+        success: () => {
+          submitBtn?.removeAttribute("disabled");
+          return "Message sent successfully!";
+        },
+        error: "Couldn't send your message. Please try again.",
       });
 
-      alert("Message sent successfully!");
+      await sendMessage;
+
+      const replyMessage = emailjs.send(
+        SERVICE_ID,
+        AUTOREPLY_TEMPLATE_ID,
+        templateParams,
+        {
+          publicKey: PUBLIC_KEY,
+        },
+      );
+
+      toast.promise(replyMessage, {
+        loading: "Sending confirmation......",
+        success: "Confirmation sent to your email!",
+        error: "Message received, but confirmation email couldn't be sent.",
+      });
+
+      await replyMessage;
 
       setName("");
       setEmail("");
@@ -41,7 +72,7 @@ function Contact() {
       setEmail("");
       setMessage("");
 
-      alert("Failed to send message.");
+      document.getElementById("submit-btn")?.removeAttribute("disabled");
     }
   };
   return (
@@ -92,6 +123,7 @@ function Contact() {
 
         <input
           type="submit"
+          id="submit-btn"
           className="bg-black cursor-pointer text-red-500 max-w-fit py-2 px-4 rounded-md"
           value="SUBMIT"
         />

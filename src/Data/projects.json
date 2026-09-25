@@ -10,7 +10,7 @@
     "image": "/images/projects/zerodha.png",
     "title": "Zerodha Clone",
     "githubLink": "https://github.com/arpit-ka/Zerodha-clone",
-    "webLink": "",
+    "webLink": "https://zerodha-frontend-ou1n.onrender.com",
     "description": "A full-stack stock trading platform inspired by Zerodha, built to recreate the core experience of a modern investment dashboard. The project includes an interactive interface for viewing market-related data, managing holdings and positions, and working with order-related functionality. It focuses on responsive frontend development, backend API integration, data management, and building a clean dashboard-oriented user experience."
   },
   {

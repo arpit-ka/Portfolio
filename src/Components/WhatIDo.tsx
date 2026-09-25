@@ -14,9 +14,10 @@ function WhatIDo() {
         <Separator />
         <h1 className="section-heading">What I Do</h1>
         <div className="flex flex-wrap justify-between mt-20">
-          {items.map((item) => {
+          {items.map((item, idx) => {
             return (
               <WhatIDoHelper
+                key={idx}
                 icon={item.icon}
                 title={item.title}
                 description={item.description}

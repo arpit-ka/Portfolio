@@ -8,8 +8,9 @@ function SkillsLeft({ title, description, images }: SkillsProps) {
         <p className="text-sm opacity-70">{description}</p>
       </div>
       <div className="icons flex flex-wrap gap-x-4 gap-y-4 items-center justify-center">
-        {images.map((image) => (
+        {images.map((image, idx) => (
           <img
+            key={idx}
             src={image.src}
             height={image.height}
             width={image.width}

@@ -13,9 +13,10 @@ function Projects() {
       <div className=" text-white">
         <h1 className="section-heading">Projects</h1>
         <div className="flex flex-wrap gap-10 justify-between mt-20 mb-20">
-          {items.map((item) => {
+          {items.map((item, idx) => {
             return (
               <ProjectsHelper
+                key={idx}
                 image={item.image}
                 title={item.title}
                 githubLink={item.githubLink}

@@ -12,3 +12,7 @@ html {
 .section-heading {
   @apply text-center text-3xl mt-24 font-semibold underline underline-offset-4 decoration-red-500 decoration-2;
 }
+
+#submit-btn:disabled {
+  @apply cursor-not-allowed opacity-50 bg-gray-500 text-gray-300;
+}

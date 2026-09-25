@@ -18,6 +18,7 @@ function Skills() {
             if (idx % 2 == 0)
               return (
                 <SkillsLeft
+                  key={idx}
                   title={item.title}
                   description={item.description}
                   images={item.images}
@@ -26,6 +27,7 @@ function Skills() {
             else
               return (
                 <SkillsRight
+                  key={idx}
                   title={item.title}
                   description={item.description}
                   images={item.images}
