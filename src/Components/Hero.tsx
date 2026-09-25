@@ -37,7 +37,13 @@ function Hero() {
           </a>
         </div>
       </div>
-      <img src="" alt="Photograph" height={100} width={350} className="mr-12" />
+      <img
+        src="photo.png"
+        alt="Photograph"
+        height={100}
+        width={350}
+        className="rounded-xl"
+      />
     </div>
   );
 }
