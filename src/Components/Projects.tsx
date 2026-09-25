@@ -28,6 +28,8 @@ function Projects() {
         </div>
         <a
           href="https://github.com/arpit-ka?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-red-500 block w-fit mx-auto py-2 px-4 rounded-md text-center"
         >
           Other Projects
