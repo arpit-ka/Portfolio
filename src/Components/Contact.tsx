@@ -125,7 +125,7 @@ function Contact() {
           type="submit"
           id="submit-btn"
           className="bg-black cursor-pointer text-red-500 max-w-fit py-2 px-4 rounded-md"
-          value="SUBMIT"
+          value="SEND"
         />
       </form>
     </div>
