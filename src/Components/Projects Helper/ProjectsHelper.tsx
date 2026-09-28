@@ -12,7 +12,7 @@ function ProjectsHelper({
   return (
     <div
       onClick={() => window.open(webLink, "_blank")}
-      className={`p-4 flex flex-col gap-5 bg-surface max-w-[20rem] rounded-md ${webLink ? "cursor-pointer" : ""}`}
+      className={`p-4 flex flex-col gap-5 bg-surface max-w-[20rem] rounded-md hover:scale-105 transition-all ${webLink ? "cursor-pointer" : ""}`}
     >
       <img src={image} className="rounded-md" />
       <div className="flex justify-between items-center">

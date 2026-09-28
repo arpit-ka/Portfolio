@@ -30,7 +30,7 @@ function Projects() {
           href="https://github.com/arpit-ka?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-red-500 block w-fit mx-auto py-2 px-4 rounded-md text-center"
+          className="bg-red-500 block w-fit mx-auto py-2 px-4 rounded-md text-center hover:bg-blue-500 hover:text-black hover:scale-105"
         >
           Other Projects
         </a>

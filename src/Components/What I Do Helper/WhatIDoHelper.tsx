@@ -14,7 +14,7 @@ const iconMap: Record<string, SvgIconComponent> = {
 function WhatIDoHelper({ icon, title, description }: WhatIDoProps) {
   const Icon = iconMap[icon];
   return (
-    <div className="bg-surface w-[30%] px-6 py-8 rounded-xl">
+    <div className="bg-surface w-[30%] px-6 py-8 rounded-xl hover:scale-105 transition-all">
       <div className="flex items-center gap-3 mb-2">
         <div className="bg-red-500 rounded-full p-1">
           <Icon />

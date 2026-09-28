@@ -124,7 +124,7 @@ function Contact() {
         <input
           type="submit"
           id="submit-btn"
-          className="bg-black cursor-pointer text-red-500 max-w-fit py-2 px-4 rounded-md"
+          className="bg-black cursor-pointer text-red-500 max-w-fit py-2 px-4 rounded-md hover:bg-red-500 hover:text-white hover:scale-105"
           value="SEND"
         />
       </form>

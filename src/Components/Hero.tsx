@@ -24,14 +24,18 @@ function Hero() {
         </p>
         <div className="flex gap-4 mt-12">
           <a
-            className="bg-black px-4 py-2 rounded-lg"
+            className="bg-black px-4 py-2 rounded-lg hover:scale-110"
             href="https://www.linkedin.com/in/arpit-kau-shik/"
+            target="_blank"
+            rel="noopener roreferrer"
           >
             <LinkedInIcon />
           </a>
           <a
-            className="bg-black px-4 py-2 rounded-lg"
+            className="bg-black px-4 py-2 rounded-lg hover:scale-110"
             href="https://github.com/arpit-ka/"
+            target="_blank"
+            rel="noopener roreferrer"
           >
             <GitHubIcon />
           </a>
