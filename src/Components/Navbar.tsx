@@ -26,7 +26,7 @@ function Navbar() {
           PROJECTS
         </a>
         <li className="cursor-pointer hover:border-2 hover:border-orange-700 p-2">
-          <a href="/Arpit_Kaushik_Resume.pdf" download={true}>
+          <a href="/Arpit_Kaushik_Resume.pdf" target="_blank">
             RESUME
           </a>
         </li>
